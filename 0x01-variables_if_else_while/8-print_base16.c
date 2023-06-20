@@ -1,14 +1,14 @@
 #include <stdio.h>
 
 /**
- * main - Entry
- * Description: print numbers in lowercase
+ * main - entry
+ * Description: print lowercase values of base 16
  * Return: always 0 (success)
  */
 
 int main(void)
 {
-	int n;
+	int n = 0;
 	int p;
 	int L_case;
 
@@ -23,6 +23,6 @@ int main(void)
 	}
 
 	putchar('\n');
+
 	return (0);
 }
-
