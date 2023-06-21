@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _islower - checks the lower and upper case
+ * _isalpha- checks the lower and upper case
  * @c: parameter
  * Return: 1 and 0
  */
@@ -12,6 +12,6 @@ int _isalpha(int c)
 	{
 		return (1);
 	}
-	else 
+	else
 		return (0);
 }
