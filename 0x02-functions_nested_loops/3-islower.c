@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
  * _islower - checks the lower and upper case
@@ -9,7 +8,7 @@
 
 int _islower(int b)
 {
-	if ((b >= 97 && b <= 122) || (b >= 65 && b <= 90))
+	if (b >= 97 && b <= 122)
 	{
 		return (1);
 	}
