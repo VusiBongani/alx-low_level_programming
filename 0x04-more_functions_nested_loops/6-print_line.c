@@ -2,7 +2,7 @@
 
 /**
  * print_line - Draw a straight line on the terminal
- * @c: int value
+ * @n: int value
  * Return: void
  */
 
