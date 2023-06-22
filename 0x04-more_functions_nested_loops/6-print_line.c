@@ -3,12 +3,13 @@
 /**
  * print_line - Draw a straight line on the terminal
  * @c: int value
- * Return: void 
+ * Return: void
  */
 
 void print_line(int n)
 {
 	int b;
+
 	if (n <= 0)
 		_putchar('\n');
 	else
