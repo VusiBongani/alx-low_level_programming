@@ -28,8 +28,13 @@ int main(void)
 		{
 			printf(" %d ", n);
 		}
+		if (n != 100)
+		{
+			printf(" ");
+		}
+		else
+			printf("\n");
 
 	}
-	putchar('\n');
 	return (0);
 }
