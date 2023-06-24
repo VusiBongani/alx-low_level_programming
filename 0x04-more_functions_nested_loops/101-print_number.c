@@ -15,8 +15,8 @@ void print_number(int n)
 		val = -val;
 	}
 
-	if ((value / 10) > 0)
+	if ((val / 10) > 0)
 		print_number(val / 10);
 
-	_putchar((value % 10) + 48);
+	_putchar((val % 10) + 48);
 }
