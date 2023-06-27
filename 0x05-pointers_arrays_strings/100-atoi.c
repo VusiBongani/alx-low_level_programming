@@ -13,7 +13,7 @@ int _atoi(char *s)
 {
 	int c = 0;
 
-	unassigned int a = 0;
+	unsigned int a = 0;
 
 	int min = 1;
 
