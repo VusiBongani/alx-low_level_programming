@@ -1,5 +1,5 @@
 #include "main.h"
-
+#include <ctype.h>
 /**
  * *cap_string - capitalizes all words of a string
  * @CAPS: char parameter
@@ -11,7 +11,7 @@ char *cap_string(char *CAPS)
 	char *ptr = CAPS;
 	int capital = 1;
 
-	while (*ptr != '/0')
+	while (*ptr != '\0')
 	{
 		if (*ptr == ' ' || *ptr == '\t' || *ptr == '\n' || *ptr == ',' ||
 				*ptr == ';' || *ptr == '.' || *ptr == '!' ||
