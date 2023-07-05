@@ -14,7 +14,7 @@ char *_memcpy(char *dest, char *src, unsigned int n)
 	char *ptr_dest = dest;
 	char *ptr_src = src;
 
-	if (dest == NULL || src || NULL || n == 0)
+	if (dest == NULL || src == NULL || n == 0)
 	{
 		return (dest);
 	}
