@@ -16,5 +16,5 @@ void _puts_recursion(char *s)
 	}
 
 	printf("%c", *s);
-	_puts_recursions(s + 1);
+	_puts_recursion(s + 1);
 }
