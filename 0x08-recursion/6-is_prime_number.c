@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * is_prime_number - checks the divisor
+ * is_prime_helper - 'function'
  * @n: intege
  * @divisor: divisor
  * Return: integer
@@ -21,6 +21,12 @@ int is_prime_helper(int n, int divisor)
 
 	return (is_prime_helper(n, divisor + 1));
 }
+
+/**
+ * is_prime_number - checks prime number
+ * @n: integer
+ * Return: integer
+ */
 
 int is_prime_number(int n)
 {
